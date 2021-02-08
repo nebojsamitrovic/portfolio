@@ -1,0 +1,162 @@
+.header {
+	color: #ffffff;
+	height: 101vh;
+	font-family: 'Agency FB', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	min-height: 800px;
+}
+
+.video-container {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: -100;
+	position: relative;
+	height: 100%;
+}
+
+.video {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.header-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.top-header {
+	top: 0;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+}
+
+.general-info {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: left;
+	width: 520px;
+	z-index: 0;
+}
+
+.header-content {
+	background: black;
+	border: 5px solid #77FB00;
+	border-radius: 30px;
+	margin-bottom: 50px;
+	padding: 10px;
+}
+
+.general {
+	background: black;
+	border: 5px solid #77FB00;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.general-row {
+	display: block;
+	text-decoration: none;
+}
+
+.general-text {
+	display: inline-block;
+	margin: 0;
+	text-decoration: none;
+	color: white;
+}
+
+.general-text-static {
+	padding: 0 20px;
+	color: gold;
+}
+
+.general-writing-text {
+
+}
+
+.info {
+	display: inline-block;
+	border-left: 10px solid gold;
+	padding-left: 20px;
+}
+
+.photo-frame {
+	display: inline-block;
+	box-sizing: border-box;
+	height: 145px;
+}
+
+.photo {
+	margin: 0 20px 0 10px;
+	background: url("profile-transparent.png") no-repeat;
+	background-size: cover;
+	width: 150px;
+	height: 155px;
+	background-position-y: center;
+	background-position-x: center;
+	filter: sepia(1);
+}
+
+.name {
+	color: white;
+}
+
+.position {
+	color: gold;
+}
+
+@media only screen and (max-width: 768px) {
+	.general-info {
+		top: 55%;
+		min-width: 290px;
+		width: auto;
+	}
+
+	.header-content {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.general {
+		font-size: 18px;
+	}
+
+	.general-text-static {
+		padding: 0 15px;
+	}
+
+	.photo-frame {
+		text-align: -webkit-center;
+		text-align: center;
+		margin: auto;
+		display: block;
+	}
+
+	.photo {
+		margin: 15px auto auto;
+	}
+
+	.info {
+		display: block;
+		padding: unset;
+		border-left: unset;
+		margin-top: 50px;
+		border-top: 10px solid gold;
+	}
+}
