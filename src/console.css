@@ -1,0 +1,37 @@
+.terminal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.terminal-base {
+    height: 95vh;
+}
+
+.terminal div {
+    max-width: unset;
+    max-height: unset;
+    overflow: hidden;
+}
+
+.terminal input[type=text] {
+    width: unset;
+    padding: unset;
+    box-sizing: unset;
+    margin-top: unset;
+    margin-bottom: unset;
+    resize: vertical;
+    background: unset;
+    color: green;
+    border: unset;
+    border-radius: unset;
+    height: unset;
+    font-size: unset;
+    font-weight: unset;
+    font-family: unset;
+}
+
+.terminal input:focus {
+    outline: unset;
+    border: unset;
+}

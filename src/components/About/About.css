@@ -1,0 +1,91 @@
+.about {
+	padding-bottom: 20px;
+	background: #333;
+}
+
+.content {
+	display: block;
+	text-align: center;
+	width: 90%;
+}
+
+.intro {
+	margin-left: 20%;
+	width: 80%;
+}
+
+.about-text {
+	display: inline-block;
+	text-align: left;
+	width: 50%;
+	vertical-align: top;
+}
+
+.about-education {
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+	vertical-align: top;
+}
+
+.content-box {
+	max-width: 60%;
+	width: 500px;
+	display: inline-block;
+	vertical-align: middle;
+	color: #000;
+	background: #fff;
+	border: 20px inset #b38600;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	box-shadow: 0 0 20px -3px black;
+}
+
+.box-heading {
+	color: gold;
+	background: #333;
+	margin-bottom: 15px;
+}
+
+.title {
+	margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+	.intro {
+		margin: auto;
+		text-align: center;
+		width: 60%;
+	}
+
+	.content-box {
+		width: 100%;
+		display: block;
+		max-width: unset;
+		margin: 40px auto;
+		box-shadow: unset;
+		border: unset;
+		background: unset;
+		color: #fff;
+	}
+
+	.content-about {
+		background: unset;
+		padding: unset;
+	}
+
+	.box-heading {
+		margin-bottom: 20px;
+	}
+
+	.about-text {
+		display: block;
+		width: unset;
+	}
+
+	.about-education {
+		display: block;
+		width: unset;
+	}
+}

@@ -1,0 +1,85 @@
+.contact {
+    background: #77fb00ad;
+    color: black;
+}
+
+.contact-content {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.contact-tab {
+    border-color: black;
+}
+
+.contact-tab-heading {
+    background: black;
+    color: #77FB00;
+}
+
+.contact-title {
+    color: black;
+}
+
+p {
+    text-align: center;
+    font-weight: 500;
+}
+
+.contact input[type=text],input[type=email], select, textarea {
+    width: 100%;
+    padding: 0 40px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background: #fff;
+    color: black;
+    border: 10px solid black;
+    border-radius: 35px;
+    height: 70px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Agency FB', sans-serif;
+}
+
+.contact input:focus, textarea:focus {
+    outline: unset;
+    border: 10px solid gold;
+}
+
+.contact textarea {
+    height: 200px;
+    padding-top: 10px;
+}
+
+.contact button {
+    background-color: black;
+    color: #77FB00;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 20px;
+    border: 10px solid black;
+    border-radius: 50px;
+    width: 50%;
+    cursor: pointer;
+    font-family: 'Agency FB', sans-serif;
+}
+
+button:hover {
+    color: gold;
+}
+
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .contact-content {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
